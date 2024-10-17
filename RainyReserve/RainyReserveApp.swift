@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct RainyReserveApp: App {
+    init() {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithTransparentBackground() // or use configureWithOpaqueBackground
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView().preferredColorScheme(.dark)
         }
     }
 }

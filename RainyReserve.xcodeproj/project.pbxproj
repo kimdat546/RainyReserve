@@ -8,17 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		F10E99012CB58E5500D38750 /* RainyReserveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E99002CB58E5500D38750 /* RainyReserveApp.swift */; };
-		F10E99032CB58E5500D38750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E99022CB58E5500D38750 /* ContentView.swift */; };
 		F10E99052CB58E5900D38750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10E99042CB58E5900D38750 /* Assets.xcassets */; };
 		F10E99082CB58E5900D38750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10E99072CB58E5900D38750 /* Preview Assets.xcassets */; };
+		F10E99132CB5924000D38750 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E99122CB5924000D38750 /* OnboardingView.swift */; };
+		F10E991D2CB597BD00D38750 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E991C2CB597BD00D38750 /* ColorExtensions.swift */; };
+		F166D3F22CB9A21F0003E275 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166D3F12CB9A21F0003E275 /* FontExtensions.swift */; };
+		F166D3F42CB9A4F60003E275 /* OnboardingPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166D3F32CB9A4F60003E275 /* OnboardingPage1.swift */; };
+		F166D3F62CB9A4FE0003E275 /* OnboardingPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166D3F52CB9A4FE0003E275 /* OnboardingPage2.swift */; };
+		F166D3F82CB9A5070003E275 /* OnboardingPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F166D3F72CB9A5070003E275 /* OnboardingPage3.swift */; };
+		F168564B2CB9AB34000FE2F3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168564A2CB9AB34000FE2F3 /* HeaderView.swift */; };
+		F168564D2CB9AB7D000FE2F3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168564C2CB9AB7D000FE2F3 /* CardView.swift */; };
+		F168564F2CB9AC0C000FE2F3 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168564E2CB9AC0C000FE2F3 /* StatisticsView.swift */; };
+		F16856512CB9ADBC000FE2F3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16856502CB9ADBC000FE2F3 /* HomeView.swift */; };
+		F16856532CB9B18F000FE2F3 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16856522CB9B18F000FE2F3 /* Transaction.swift */; };
+		F16856562CB9B1B9000FE2F3 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16856552CB9B1B9000FE2F3 /* TransactionView.swift */; };
+		F16856582CB9B2AD000FE2F3 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16856572CB9B2AD000FE2F3 /* TransactionListView.swift */; };
+		F168565A2CB9B2D1000FE2F3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16856592CB9B2D1000FE2F3 /* SearchBar.swift */; };
+		F168565D2CBA3EEE000FE2F3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168565C2CBA3EEE000FE2F3 /* SettingsView.swift */; };
+		F168565F2CBA3F0A000FE2F3 /* CategorySetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168565E2CBA3F0A000FE2F3 /* CategorySetupView.swift */; };
+		F16856612CBA3F18000FE2F3 /* BudgetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16856602CBA3F18000FE2F3 /* BudgetSetupView.swift */; };
+		F16856632CBA3F23000FE2F3 /* WalletManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16856622CBA3F23000FE2F3 /* WalletManagementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F10E98FD2CB58E5500D38750 /* RainyReserve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainyReserve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10E99002CB58E5500D38750 /* RainyReserveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainyReserveApp.swift; sourceTree = "<group>"; };
-		F10E99022CB58E5500D38750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F10E99042CB58E5900D38750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F10E99072CB58E5900D38750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F10E99122CB5924000D38750 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F10E991C2CB597BD00D38750 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		F166D3F02CB9A0A70003E275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F166D3F12CB9A21F0003E275 /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		F166D3F32CB9A4F60003E275 /* OnboardingPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage1.swift; sourceTree = "<group>"; };
+		F166D3F52CB9A4FE0003E275 /* OnboardingPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage2.swift; sourceTree = "<group>"; };
+		F166D3F72CB9A5070003E275 /* OnboardingPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage3.swift; sourceTree = "<group>"; };
+		F168564A2CB9AB34000FE2F3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F168564C2CB9AB7D000FE2F3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F168564E2CB9AC0C000FE2F3 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		F16856502CB9ADBC000FE2F3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F16856522CB9B18F000FE2F3 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F16856552CB9B1B9000FE2F3 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		F16856572CB9B2AD000FE2F3 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		F16856592CB9B2D1000FE2F3 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F168565C2CBA3EEE000FE2F3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F168565E2CBA3F0A000FE2F3 /* CategorySetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySetupView.swift; sourceTree = "<group>"; };
+		F16856602CBA3F18000FE2F3 /* BudgetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSetupView.swift; sourceTree = "<group>"; };
+		F16856622CBA3F23000FE2F3 /* WalletManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletManagementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +86,15 @@
 		F10E98FF2CB58E5500D38750 /* RainyReserve */ = {
 			isa = PBXGroup;
 			children = (
-				F10E99002CB58E5500D38750 /* RainyReserveApp.swift */,
-				F10E99022CB58E5500D38750 /* ContentView.swift */,
+				F166D3F02CB9A0A70003E275 /* Info.plist */,
 				F10E99042CB58E5900D38750 /* Assets.xcassets */,
+				F16856492CB9AB21000FE2F3 /* Components */,
+				F10E990E2CB5921500D38750 /* Models */,
+				F10E990F2CB5921C00D38750 /* Views */,
+				F10E99002CB58E5500D38750 /* RainyReserveApp.swift */,
+				F10E99102CB5922800D38750 /* ViewModels */,
+				F10E99112CB5922F00D38750 /* Services */,
+				F166D3EC2CB99BCA0003E275 /* Extensions */,
 				F10E99062CB58E5900D38750 /* Preview Content */,
 			);
 			path = RainyReserve;
@@ -65,6 +106,98 @@
 				F10E99072CB58E5900D38750 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F10E990E2CB5921500D38750 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F16856522CB9B18F000FE2F3 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F10E990F2CB5921C00D38750 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F168565B2CBA3EE1000FE2F3 /* Setting */,
+				F16856542CB9B1AC000FE2F3 /* Transaction */,
+				F166D3EE2CB99DC40003E275 /* Home */,
+				F166D3ED2CB99DB90003E275 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F10E99102CB5922800D38750 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F10E99112CB5922F00D38750 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F166D3EC2CB99BCA0003E275 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F10E991C2CB597BD00D38750 /* ColorExtensions.swift */,
+				F166D3F12CB9A21F0003E275 /* FontExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F166D3ED2CB99DB90003E275 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F10E99122CB5924000D38750 /* OnboardingView.swift */,
+				F166D3F32CB9A4F60003E275 /* OnboardingPage1.swift */,
+				F166D3F52CB9A4FE0003E275 /* OnboardingPage2.swift */,
+				F166D3F72CB9A5070003E275 /* OnboardingPage3.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F166D3EE2CB99DC40003E275 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F16856502CB9ADBC000FE2F3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F16856492CB9AB21000FE2F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F168564A2CB9AB34000FE2F3 /* HeaderView.swift */,
+				F168564C2CB9AB7D000FE2F3 /* CardView.swift */,
+				F168564E2CB9AC0C000FE2F3 /* StatisticsView.swift */,
+				F16856592CB9B2D1000FE2F3 /* SearchBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F16856542CB9B1AC000FE2F3 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				F16856552CB9B1B9000FE2F3 /* TransactionView.swift */,
+				F16856572CB9B2AD000FE2F3 /* TransactionListView.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		F168565B2CBA3EE1000FE2F3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F168565C2CBA3EEE000FE2F3 /* SettingsView.swift */,
+				F168565E2CBA3F0A000FE2F3 /* CategorySetupView.swift */,
+				F16856602CBA3F18000FE2F3 /* BudgetSetupView.swift */,
+				F16856622CBA3F23000FE2F3 /* WalletManagementView.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +270,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F10E99032CB58E5500D38750 /* ContentView.swift in Sources */,
+				F166D3F42CB9A4F60003E275 /* OnboardingPage1.swift in Sources */,
+				F168564F2CB9AC0C000FE2F3 /* StatisticsView.swift in Sources */,
+				F168565A2CB9B2D1000FE2F3 /* SearchBar.swift in Sources */,
+				F16856532CB9B18F000FE2F3 /* Transaction.swift in Sources */,
+				F168564D2CB9AB7D000FE2F3 /* CardView.swift in Sources */,
+				F168565F2CBA3F0A000FE2F3 /* CategorySetupView.swift in Sources */,
+				F10E99132CB5924000D38750 /* OnboardingView.swift in Sources */,
+				F16856582CB9B2AD000FE2F3 /* TransactionListView.swift in Sources */,
+				F166D3F82CB9A5070003E275 /* OnboardingPage3.swift in Sources */,
+				F16856512CB9ADBC000FE2F3 /* HomeView.swift in Sources */,
+				F168565D2CBA3EEE000FE2F3 /* SettingsView.swift in Sources */,
+				F16856632CBA3F23000FE2F3 /* WalletManagementView.swift in Sources */,
+				F16856612CBA3F18000FE2F3 /* BudgetSetupView.swift in Sources */,
+				F16856562CB9B1B9000FE2F3 /* TransactionView.swift in Sources */,
+				F166D3F22CB9A21F0003E275 /* FontExtensions.swift in Sources */,
 				F10E99012CB58E5500D38750 /* RainyReserveApp.swift in Sources */,
+				F166D3F62CB9A4FE0003E275 /* OnboardingPage2.swift in Sources */,
+				F10E991D2CB597BD00D38750 /* ColorExtensions.swift in Sources */,
+				F168564B2CB9AB34000FE2F3 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +422,7 @@
 				DEVELOPMENT_TEAM = X3D2A44R84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainyReserve/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +452,7 @@
 				DEVELOPMENT_TEAM = X3D2A44R84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainyReserve/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
